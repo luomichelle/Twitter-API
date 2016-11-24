@@ -3,7 +3,7 @@ var config = require('./keys');   //keys are under keys.js file
 var T = new Twit(config);
 
 var tweet = {
-	status: 'my second time test for twitter API'
+	status: 'My Twitter API Works!'
 }
 
 T.post('statuses/update',tweet,tweeted);
@@ -20,12 +20,6 @@ var params = {
 //	q: 'summer',
 	screen_name: 'mluoxxx'
 };
-//T.get('search/tweets', params, function(error, data, response) {
-//	var tweets = data.statuses;
-//	for (var i = 0; i<tweets.length; i++) {
-//		console.log(tweets[i].text);
-//	}
-//});
 
 T.get('statuses/user_timeline', params, function(error, tweets, response) {
 		for (var i = 0; i < tweets.length; i++){

@@ -1,4 +1,4 @@
-console.log('this is loaded 2 ');
+console.log('key is loaded ');
 module.exports = {
   consumer_key: 'Fy4bGRDqSFuCoNFPIyfpfVasa',
   consumer_secret: 'xN9bGoFtAiLhugNVHe0oyjt9O250mJsGHW4Sj2zr53qDazkIgF',
@@ -6,4 +6,3 @@ module.exports = {
   access_token_secret: 'qmsG5VmrjtGxwDps5csL8C7xcuAx75a8rtq6KaVAsAavY',
 }
 
-console.log('this is loaded3');
