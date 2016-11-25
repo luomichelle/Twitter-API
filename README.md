@@ -1,7 +1,7 @@
 LIRI Bot - Liri-Node-App
 
 
-[![Demo Doccou alpha](http://share.gifyoutube.com/KzB6Gb.gif)]
+[![Demo Doccou alpha](https://gifs.com/gif/98O4vB)]
 
 ### Overview
  LIRI. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a *Language* Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
